@@ -1,4 +1,4 @@
 {
-  username = "lukecollins";
-  homeDirectory = "/home/lukecollins";
+  username = "tracychaarandura";
+  homeDirectory = "/home/tracychaarandura";
 }

@@ -1,21 +1,23 @@
+# alacritty.yml
+
 colors:
   primary:
-    background: "0xfaf4ed"
-    foreground: "0x575279"
+    background: "0x000000"  # Black background
+    foreground: "0xFFFFFF"  # White text
   cursor:
-    text: "0x575279"
-    cursor: "0xcecacd"
+    text: "0xFFFFFF"  # White text
+    cursor: "0x000000"  # Black cursor
   vi_mode_cursor:
-    text: "0x575279"
-    cursor: "0xcecacd"
+    text: "0xFFFFFF"  # White text
+    cursor: "0x000000"  # Black cursor
   line_indicator:
     foreground: None
     background: None
   selection:
-    text: "0x575279"
-    background: "0xdfdad9"
+    text: "0xFFFFFF"  # White text
+    background: "0x000000"  # Black background
   normal:
-    black: "0xf2e9e1"
+    black: "0xFFFFFF"  # White text
     red: "0xb4637a"
     green: "0x286983"
     yellow: "0xea9d34"
@@ -24,7 +26,7 @@ colors:
     cyan: "0xd7827e"
     white: "0x575279"
   bright:
-    black: "0x9893a5"
+    black: "0xFFFFFF"  # White text
     red: "0xb4637a"
     green: "0x286983"
     yellow: "0xea9d34"

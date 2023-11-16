@@ -19,9 +19,9 @@
 
     # Input Configuration
     input {
-        kb_layout = us                  # Keyboard layout
+        kb_layout = gb                  # Keyboard layout
         touchpad {
-            natural_scroll = false      # Touchpad natural scroll
+            natural_scroll = true      # Touchpad natural scroll
             clickfinger_behavior = 1    # Click finger behavior
         }
         follow_mouse = 0                # Disable focus change on hover
@@ -94,7 +94,7 @@
     bind = $mainMod_SHIFT, C, exec, hyprctl reload && pkill waybar && nohup waybar > /dev/null 2>&1 & pkill mako && nohup mako > /dev/null 2>&1 &
  # Reload system config
     bind = $mainMod_SHIFT, Q, killactive           # Kill active window
-    bind = $mainMod, ESCAPE, exec, swaylock --clock --image //home/lukecollins/Pictures/screensaver.jpg # Lock screen
+    bind = $mainMod, ESCAPE, exec, swaylock --clock --image //home/tracycharandura/Pictures/wallpaper.jpg # Lock screen
     bind = $mainMod, BACKSPACE, hy3:makegroup, opposite, ephemeral # Toggle split
     bind = $mainMod_SHIFT, E, exit                 # Exit system
 
@@ -155,7 +155,7 @@
     bind = $mainMod SHIFT, 0, movetoworkspace, 10
 
     # Lid switch event
-    bindl=,switch:Lid Switch,exec,swaylock --clock --image //home/lukecollins/Pictures/screensaver.jpg # Lock screen 
+    bindl=,switch:Lid Switch,exec,swaylock --clock --image //home/tracycharandura/Pictures/wallpaper.jpg # Lock screen 
 
     # Resize window & move floating window
     bindm = $mainMod, mouse:272, resizewindow
